@@ -23,6 +23,12 @@ namespace EntangleHit
             base.OnModuleLoaded();
         }
 
+        [Harmon]
+        public static class ProjectilePatch
+        {
+
+        }
+
         public static void SendHit(float damage, NotifyHitData.Limb limb, long playerId)
         {
             NotifyHitData hitData = new NotifyHitData()
