@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntangleHit", "EntangleHit.csproj", "{92DFA476-CD14-4B97-9EC6-7827BB06776C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92DFA476-CD14-4B97-9EC6-7827BB06776C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DFA476-CD14-4B97-9EC6-7827BB06776C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DFA476-CD14-4B97-9EC6-7827BB06776C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DFA476-CD14-4B97-9EC6-7827BB06776C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90383B90-5559-4410-8EE4-C09665FFC6FD}
+	EndGlobalSection
+EndGlobal
