@@ -37,6 +37,9 @@
     <Reference Include="0Harmony">
       <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\BONEWORKS\profiles\Default\MelonLoader\0Harmony.dll</HintPath>
     </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONEWORKS\BONEWORKS\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="Entanglement">
       <HintPath>..\..\..\AppData\Roaming\r2modmanPlus-local\BONEWORKS\profiles\Default\Mods\Entanglement.dll</HintPath>
     </Reference>
@@ -50,8 +53,16 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\BONEWORKS\BONEWORKS\MelonLoader\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProjectilePatch.cs" />
+    <Compile Include="NotifyHitHandler.cs" />
+    <Compile Include="Data\NotifyHitData.cs" />
+    <Compile Include="Data\MessageType.cs" />
+    <Compile Include="Data\SyncData.cs" />
     <Compile Include="MelonLoaderMod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

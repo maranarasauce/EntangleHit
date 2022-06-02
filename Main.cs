@@ -2,6 +2,7 @@
 using EntangleHit.Data;
 using Entanglement.Modularity;
 using Entanglement.Network;
+using HarmonyLib;
 using MelonLoader;
 using StressLevelZero.Combat;
 
@@ -21,12 +22,6 @@ namespace EntangleHit
         public override void OnModuleLoaded()
         {
             base.OnModuleLoaded();
-        }
-
-        [Harmon]
-        public static class ProjectilePatch
-        {
-
         }
 
         public static void SendHit(float damage, NotifyHitData.Limb limb, long playerId)
